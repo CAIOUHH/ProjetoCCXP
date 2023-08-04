@@ -1,0 +1,173 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#header{
+    background: #FFD900;
+    padding: 0px;
+    margin: 0px;
+}
+
+img{
+    margin: 25px 0px 25px 55px;
+}
+
+#video{
+    padding: 0px;
+    margin: 60px 10px 0px 10px;
+    width: 640px;
+}
+
+
+#text{
+    background: #514988;
+}
+
+
+#content{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#text h1{
+    color: #F3C61F;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+    padding: 5px;
+}
+
+#text h3{
+    color: #FFF;
+    font-family: Verdana;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#text p{
+    color: #FFF;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 50px 30px 65px 20px;
+}
+
+.count{
+    color: #514988;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px 0px 65px;
+    align-items: center;
+}
+
+.count p{
+    font-size: 57px;
+    margin: 38px 25px 0px 0px;
+}
+
+#count-text{
+    margin-top: -40px;
+    font-size: 22.5px;
+    margin-bottom: 25px;
+    margin-left: -80px;
+}
+
+.timer{
+    display: inline-flex;
+}
+
+
+div h2{
+    color: #E33881;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#end{
+    color: #F3C61F;
+    text-align: justify;
+    font-family: Verdana;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 80px;
+}
+
+#card{
+    display: inline-flex;
+    padding: 25px;
+}
+
+.ingrs{
+    width: 180px;
+    margin: 10px;
+}
+
+#btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 5px;
+    background: #514988;
+    padding: 10px;
+    width: 400px;
+    height: 125px;
+    border-style: none;
+    margin-left: 80px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.card-highlight{
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+.card-selected{
+    border: solid 5px green;
+}
+
+input{
+    background: #514988;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 0pt;
+    margin: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+}
+
+#theend{
+    background-color: #F3C61F;
+}
+
+button:hover{
+    box-shadow: 8px 8px 8px 8px grey;
+}

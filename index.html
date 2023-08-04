@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page CCXP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <img src="/Imagem/logo.svg" alt="" width="200px">
+    </header>
+<div id="content">
+    <div id="text" class="intro">
+        <h1>REVIVA O ÉPICO</h1><br>
+        <h3>DE 01 A 04 DE DEZEMBRO</h3><br>
+        <p>Você consegue sentir? É aquela sensação de<br> finalmente poder falar em voz alta:
+            "estamos<br> em casa". Sim, em dezembro de 2022,<br> teremos a volta da CCXP física. 
+            Mas não será <br>qualquer CCXP, vai ser a maior de todos os<br> tempos. Prepare-se para visitar seus<br> universos favoritos,
+            explorar o Artists' Valley,<br> se emocionar nos auditórios
+            e encontrar<br> aventuras épicas a cada passo pelos nossos<br> corredores.
+        </p>
+
+
+    </div>
+    <div id="video" class="intro">
+        <div class="count">
+            <div class="timer">
+                <h1 id="dia">00</h1><p>D</p>
+                <h1 id="hora">00</h1><p>H</p>
+                <h1 id="min">00</h1><p>M</p>
+                <h1 id="sec">00</h1><P>S</P>
+            </div>
+            
+            <h2 id="count-text">PARA A MAIOR CCXP DE TODOS OS TEMPOS</h2>
+        </div>
+
+        <div>
+            <video width="680px" height="auto" controls loop src="/Imagem/Arlequina.mp4 " type="video/mp4"></video>
+        </div>
+
+    </div>
+</div>
+
+<div>
+    <h3 id="end">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h3>
+    <div id="card">
+        <img class="ingrs" onclick="selectCard('#card1')" onmouseover="highlightCard('#card1')" onmouseout="highlightCard('#card1')" id="card1" src="/Imagem/card1.svg" alt="">
+        <img class="ingrs" onclick="selectCard('#card2')"  onmouseover="highlightCard('#card2')" onmouseout="highlightCard('#card2')"  id="card2" src="/Imagem/card2.svg" alt="">
+        <img class="ingrs" onclick="selectCard('#card3')"  onmouseover="highlightCard('#card3')" onmouseout="highlightCard('#card3')"  id="card3" src="/Imagem/card3.svg" alt="">
+        <img class="ingrs" onclick="selectCard('#card4')"  onmouseover="highlightCard('#card4')" onmouseout="highlightCard('#card4')"  id="card4" src="/Imagem/card4.svg" alt="">
+
+
+        <button id="btn" onclick="showSelectedCards()">GARANTA JÁ O SEU!</button>
+
+    </div>
+
+    <div id="theend">
+        <form action="https://www.google.com">
+            <input type="email" placeholder="Seu Email" required>
+            <input type="submit">
+        </form>
+
+    </div>
+</div>
+    <script src="timer.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
